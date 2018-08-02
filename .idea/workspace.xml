@@ -1,150 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9391b6c6-4ec7-49aa-bbaa-e1f59c499bd8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/command/command.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/kt3/omos/command/CategoryCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/kt3/omos/command/CategoryWithoutProductList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/kt3/omos/command/ProductCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/src/main/java/com/kt3/omos/converter/CategoryCommandToCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/src/main/java/com/kt3/omos/converter/CategoryToCaTegoryWithoutProductList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/src/main/java/com/kt3/omos/converter/CategoryToCategoryCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/src/main/java/com/kt3/omos/converter/CategoryWithoutProductListToCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/src/main/java/com/kt3/omos/converter/ProductCommandToProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/converter/src/main/java/com/kt3/omos/converter/ProductToProductCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repositories/src/main/java/com/kt3/omos/repositories/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repositories/src/main/java/com/kt3/omos/repositories/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/src/main/java/com/kt3/omos/services/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/src/main/java/com/kt3/omos/services/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/src/main/java/com/kt3/omos/services/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/src/main/java/com/kt3/omos/services/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/kt3/omos/controllers/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/kt3/omos/controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_197.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_17_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/domain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Auditable.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Auditable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/CartItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/CategoryDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/CategoryDiscount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/CustomerRewardPointLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/CustomerRewardPointLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/MembershipType.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/MembershipType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Privilege.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Privilege.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/ProductComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/ProductComment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/ProductDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/ProductDiscount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/ProductPricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/ProductPricing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Auditable.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Auditable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/CartItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/CategoryDiscount.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/CategoryDiscount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/CustomerRewardPointLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/CustomerRewardPointLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/MembershipType.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/MembershipType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/OrderItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Privilege.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Privilege.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/ProductComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/ProductComment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/ProductDiscount.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/ProductDiscount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/ProductPricing.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/ProductPricing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Profile.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Profile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/target/classes/com/kt3/omos/domain/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/omos-webservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/omos-webservice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositories/repositories.iml" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/repositories.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositories/src/main/java/com/kt3/omos/boostrap/DbSeeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/src/main/java/com/kt3/omos/boostrap/DbSeeder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositories/target/classes/com/kt3/omos/boostrap/DbSeeder.class" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/target/classes/com/kt3/omos/boostrap/DbSeeder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/services.iml" beforeDir="false" afterPath="$PROJECT_DIR$/services/services.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/src/main/java/com/kt3/omos/services/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/src/main/java/com/kt3/omos/services/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/target/classes/com/kt3/omos/services/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/services/target/classes/com/kt3/omos/services/StudentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
-    </list>
+    <list default="true" id="9391b6c6-4ec7-49aa-bbaa-e1f59c499bd8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/domain/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -184,25 +41,26 @@
       <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="142" column="11" lean-forward="true" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="11" />
-              <folding>
-                <element signature="e#1822#1823#0" expanded="true" />
-                <element signature="e#1854#1855#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="630">
+              <caret line="170" column="1" selection-start-line="170" selection-start-column="1" selection-end-line="170" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Category.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Category.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Category.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="120" column="5" lean-forward="true" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
-              <folding>
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="703">
+              <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -219,59 +77,8 @@
       <file leaf-file-name="DbSeeder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repositories/src/main/java/com/kt3/omos/boostrap/DbSeeder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/kt3/omos/controllers/ProductController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/src/main/java/com/kt3/omos/command/ProductCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/src/main/java/com/kt3/omos/services/ProductServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="59" column="60" selection-start-line="59" selection-start-column="60" selection-end-line="59" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductToProductCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/converter/src/main/java/com/kt3/omos/converter/ProductToProductCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductCommandToProduct.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/converter/src/main/java/com/kt3/omos/converter/ProductCommandToProduct.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="52" column="38" lean-forward="true" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+            <state relative-caret-position="567">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -294,6 +101,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -387,8 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -418,23 +228,6 @@
             <path>
               <item name="omos-webservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="omos-webservice" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="omos-webservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omos-webservice" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="omos-webservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omos-webservice" type="462c0819:PsiDirectoryNode" />
               <item name="converter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -449,23 +242,6 @@
               <item name="converter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="omos-webservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omos-webservice" type="462c0819:PsiDirectoryNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="omos-webservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="omos-webservice" type="462c0819:PsiDirectoryNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="omos-webservice" type="b2602c69:ProjectViewProjectNode" />
@@ -620,6 +396,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -750,7 +528,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79491000" />
+    <option name="totallyTimeSpent" value="79531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -770,17 +548,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3513812" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32928178" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.3281768" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="HDInsight Spark Submission" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.18674034" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18674034" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32928178" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32928178" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30916846" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31236672" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Google Cloud Storage" order="4" />
@@ -788,12 +565,44 @@
       <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="7" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32928178" />
+      <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18674034" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32942432" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32928178" />
+      <window_info id="UI Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30916846" />
+      <window_info anchor="bottom" id="HDInsight Spark Submission" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Google Cloud Storage" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="7" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Azure Activity Log" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.3281768" />
+      <window_info anchor="right" id="Bean Validation" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Web" order="3" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Azure Explorer" order="2" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32928178" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3513812" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -859,13 +668,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/converter/src/main/java/com/kt3/omos/converter/CategoryCommand.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
@@ -1163,30 +965,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="142" column="11" lean-forward="true" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="11" />
-          <folding>
-            <element signature="e#1822#1823#0" expanded="true" />
-            <element signature="e#1854#1855#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="630">
+          <caret line="170" column="1" selection-start-line="170" selection-start-column="1" selection-end-line="170" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repositories/src/main/java/com/kt3/omos/boostrap/DbSeeder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="567">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/com/kt3/omos/domain/Category.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="120" column="5" lean-forward="true" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
-          <folding>
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="703">
+          <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
         </state>
       </provider>
     </entry>
