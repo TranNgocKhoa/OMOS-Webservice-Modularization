@@ -11,7 +11,7 @@ import javax.persistence.EntityListeners;
 import javax.persistence.MappedSuperclass;
 import javax.persistence.Temporal;
 import java.io.Serializable;
-import java.util.Date;
+import java.time.LocalDateTime;
 
 import static javax.persistence.TemporalType.TIMESTAMP;
 @MappedSuperclass
@@ -21,15 +21,18 @@ public abstract class Auditable<U> implements Serializable {
     protected U createdBy;
 
     @CreatedDate
-    @Temporal(TIMESTAMP)
-    protected Date creationDate;
+    protected LocalDateTime creationDate;
 
     @LastModifiedBy
     protected U lastModifiedBy;
 
     @LastModifiedDate
-    @Temporal(TIMESTAMP)
-    protected Date lastModifiedDate;
+    protected LocalDateTime lastModifiedDate;
+
+    public Auditable() {
+        this.setCreationDate(LocalDateTime.now());
+        this.setLastModifiedDate(LocalDateTime.now());
+    }
 
     public U getCreatedBy() {
         return createdBy;
@@ -39,11 +42,11 @@ public abstract class Auditable<U> implements Serializable {
         this.createdBy = createdBy;
     }
 
-    public Date getCreationDate() {
+    public LocalDateTime getCreationDate() {
         return creationDate;
     }
 
-    public void setCreationDate(Date creationDate) {
+    public void setCreationDate(LocalDateTime creationDate) {
         this.creationDate = creationDate;
     }
 
@@ -55,11 +58,13 @@ public abstract class Auditable<U> implements Serializable {
         this.lastModifiedBy = lastModifiedBy;
     }
 
-    public Date getLastModifiedDate() {
+    public LocalDateTime getLastModifiedDate() {
         return lastModifiedDate;
     }
 
-    public void setLastModifiedDate(Date lastModifiedDate) {
+    public void setLastModifiedDate(LocalDateTime lastModifiedDate) {
         this.lastModifiedDate = lastModifiedDate;
     }
+
+
 }
