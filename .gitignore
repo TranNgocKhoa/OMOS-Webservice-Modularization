@@ -3,3 +3,13 @@ omos-webservice.iml
 .idea/dataSources.local.xml
 .idea/workspace.xml
 .idea/workspace.xml
+web/web.iml
+services/services.iml
+repositories/repositories.iml
+omos-webservice.iml
+domain/domain.iml
+.idea/modules.xml
+.idea/misc.xml
+.idea/libraries/Maven__com_kt3_converter_0_0_1_SNAPSHOT.xml
+.idea/libraries/Maven__com_kt3_command_0_0_1_SNAPSHOT.xml
+.idea/azureSettings.xml
