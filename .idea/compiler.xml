@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="command" />
+        <module name="converter" />
         <module name="domain" />
         <module name="repositories" />
         <module name="services" />
@@ -13,6 +15,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="command" target="1.8" />
+      <module name="converter" target="1.8" />
       <module name="domain" target="1.8" />
       <module name="omos-webservice" target="1.8" />
       <module name="repositories" target="1.8" />
