@@ -26,7 +26,8 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public Student getStudentById(String id) {
-        return studentRepository.findById(Long.valueOf(id)).get();
+        //return studentRepository.findById(Long.valueOf(id)).get();
+        return null;
     }
 
     @Override
@@ -36,7 +37,8 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public List<Student> saveAllStudent(List<Student> studentList) {
-        return studentRepository.saveAll(studentList);
+        //return studentRepository.saveAll(studentList);
+        return null;
     }
 
     @Override
